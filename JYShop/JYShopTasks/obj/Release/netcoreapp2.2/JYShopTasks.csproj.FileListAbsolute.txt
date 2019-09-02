@@ -1,0 +1,16 @@
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShopTasks.deps.json
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShopTasks.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShopTasks.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShopCommon.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShopModel.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShopCommon.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShopModel.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\obj\Release\netcoreapp2.2\JYShopTasks.csprojAssemblyReference.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\obj\Release\netcoreapp2.2\JYShopTasks.csproj.CoreCompileInputs.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\obj\Release\netcoreapp2.2\JYShopTasks.AssemblyInfoInputs.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\obj\Release\netcoreapp2.2\JYShopTasks.AssemblyInfo.cs
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\obj\Release\netcoreapp2.2\JYShopTasks.csproj.CopyComplete
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\obj\Release\netcoreapp2.2\JYShopTasks.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\obj\Release\netcoreapp2.2\JYShopTasks.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShop.IServices.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShopTasks\bin\Release\netcoreapp2.2\JYShop.IServices.pdb

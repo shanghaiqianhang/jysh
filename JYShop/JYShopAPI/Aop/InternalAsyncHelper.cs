@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
+
+namespace JYShopAPI.Aop
+{
+    internal class InternalAsyncHelper
+    {
+        public static async Task AwaitTaskWithPostActionAndFinally(Task actualReturnValue,Func<Task> postAction,Action<Exception> finalAction)
+        {
+            Exception exception = null;
+            try
+            {
+                await actualReturnValue;
+                await postAction();
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+            finally
+            {
+                finalAction(exception);
+            }
+        }
+
+        public static async Task<T> AwaitTaskWithPostActionAndFinallyAndGetResult<T>(Task<T> actualReturnValue,Func<Task> postAction,Action<Exception> finallyAction)
+        {
+            Exception exception = null;
+            try
+            {
+                var result = await actualReturnValue;
+                await postAction();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+                throw;
+            }
+            finally
+            {
+                finallyAction(exception);
+            }
+        }
+
+        public static object CallAwaitTaskWithPostActionAndFinallyAndGetResult(Type taskReturnType,object actualReturnValue,Func<Task> action,Action<Exception> finallyAction)
+        {
+            return typeof(InternalAsyncHelper).GetMethod("AwaitTaskWithPostActionAndFinallyAndGetResult", BindingFlags.Public|BindingFlags.Static)
+                .MakeGenericMethod(taskReturnType)
+                .Invoke(null ,new object[] { actualReturnValue,action,finallyAction});
+        }
+    }
+}

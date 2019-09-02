@@ -1,0 +1,9 @@
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\bin\Debug\netcoreapp2.2\JYShopCommon.deps.json
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\bin\Debug\netcoreapp2.2\JYShopCommon.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\obj\Debug\netcoreapp2.2\JYShopCommon.csproj.CoreCompileInputs.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\obj\Debug\netcoreapp2.2\JYShopCommon.AssemblyInfoInputs.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\obj\Debug\netcoreapp2.2\JYShopCommon.AssemblyInfo.cs
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\bin\Debug\netcoreapp2.2\JYShopCommon.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\obj\Debug\netcoreapp2.2\JYShopCommon.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\obj\Debug\netcoreapp2.2\JYShopCommon.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShopCommon\obj\Debug\netcoreapp2.2\JYShopCommon.csprojAssemblyReference.cache

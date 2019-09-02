@@ -1,0 +1,33 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using static JYShopAPI.SwaggerHelper.CustomApiVersion;
+
+namespace JYShopAPI.SwaggerHelper
+{
+    /// <summary>
+    /// 自定义路由 /api/{version}/[controler]/[action]
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true, Inherited = true)]
+    public class CustomRouteAttribute : RouteAttribute, IApiDescriptionGroupNameProvider
+    {
+
+        /// <summary>
+        /// 分组名称,是来实现接口 IApiDescriptionGroupNameProvider
+        /// </summary>
+        public string GroupName { get; set; }
+
+        public CustomRouteAttribute(string actionName = "[action]") : base("/api/{version}/[controller]/" + actionName)
+        {
+
+        }
+
+        public CustomRouteAttribute(ApiVersions version,string actionName=""):base($"/api/{version.ToString()}/[controller]/{actionName}")
+        {
+            GroupName = version.ToString();
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JYShop.IRepository\JYShop.IRepository.csproj" />
+    <ProjectReference Include="..\JYShop.IServices\JYShop.IServices.csproj" />
+    <ProjectReference Include="..\JYShopModel\JYShopModel.csproj" />
+  </ItemGroup>
+
+</Project>

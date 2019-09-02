@@ -1,0 +1,16 @@
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\obj\Debug\netcoreapp2.2\JYShop.Repository.csprojAssemblyReference.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\obj\Debug\netcoreapp2.2\JYShop.Repository.csproj.CoreCompileInputs.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\obj\Debug\netcoreapp2.2\JYShop.Repository.AssemblyInfoInputs.cache
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\obj\Debug\netcoreapp2.2\JYShop.Repository.AssemblyInfo.cs
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShop.Repository.deps.json
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShop.Repository.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShop.IRepository.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShopCommon.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShopModel.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShop.IRepository.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShopCommon.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShopModel.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\obj\Debug\netcoreapp2.2\JYShop.Repository.csproj.CopyComplete
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\bin\Debug\netcoreapp2.2\JYShop.Repository.pdb
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\obj\Debug\netcoreapp2.2\JYShop.Repository.dll
+C:\Codes\NetCore\JYShop\JYShop\JYShop.Repository\obj\Debug\netcoreapp2.2\JYShop.Repository.pdb
